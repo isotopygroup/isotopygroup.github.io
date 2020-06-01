@@ -37,12 +37,6 @@ Choose to install Ubuntu from the USB.
   - Next check with the `Ubuntu Software` app.
 - Look through system `Settings` and customize (e.g. dark mode, multiple displays).
 
-## Install Git
-
-```
-sudo apt update
-sudo apt install git
-```
 
 ## Install rEFInd Boot Manager
 We will use [rEFInd](https://www.rodsbooks.com/refind) to select which OS to boot.
@@ -58,7 +52,9 @@ sudo apt-get install refind
 ```
 
 ### Adding a theme to rEFInd
-One of the themes mentioned on the rEFInd website is [Regular-theme](https://github.com/bobafetthotmail/refind-theme-regular) which can be installed as follows:
+One of the themes mentioned on the rEFInd website is [Regular-theme](https://github.com/bobafetthotmail/refind-theme-regular).
+The installation mostly just requires copying image and configuration files.
+If `git` has been installed ([installing git](/setup-env/git#install-git)) you can download and copy these files as follows:
 
 ```
 git clone https://github.com/bobafetthotmail/refind-theme-regular.git
