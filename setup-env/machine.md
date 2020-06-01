@@ -54,7 +54,7 @@ sudo apt-get install refind
 ### Adding a theme to rEFInd
 One of the themes mentioned on the rEFInd website is [Regular-theme](https://github.com/bobafetthotmail/refind-theme-regular).
 The installation mostly just requires copying image and configuration files.
-If `git` has been installed ([installing git](/setup-env/git#install-git)) you can download and copy these files as follows:
+If `git` has been installed [installing git](/setup-env/git#install-git)), then you can download and copy these files as follows:
 
 ```
 git clone https://github.com/bobafetthotmail/refind-theme-regular.git
