@@ -2,7 +2,7 @@
 
 ## Install Git
 
-```
+```bash
 sudo apt update
 sudo apt install git
 ```
@@ -16,14 +16,14 @@ Additionally, we will set the global user variables to null values so that an er
 The global configuration file is located in the user home directory `~/.gitconfig`.
 The following commands will set the global user variables to the empty string:
 
-```
+```bash
 git config --global user.name ''
 git config --global user.email ''
 ```
 
 To set the user variables for a specific repository use the following commands from within the repository:
 
-```
+```bash
 git config user.name USER_NAME
 git config user.email USER_PUBLIC_EMAIL
 ```
@@ -32,6 +32,6 @@ Note that the GitHub email settings page displays an automatically generated ema
 
 To list current values of all GitHub variables use:
 
-```
+```bash
 git config -l
 ```

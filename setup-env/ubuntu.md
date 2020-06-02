@@ -5,7 +5,7 @@
 If the shared partition is mounted at `/work` then the owner is probably set to 'root' and the user only has read access.
 One solution is to change the owner:
 
-```
+```bash
 sudo chown USER_NAME /work
 ```
 

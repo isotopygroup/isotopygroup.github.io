@@ -45,7 +45,7 @@ Before getting started check that the ESP is mounted at `/boot/efi` (e.g. in the
 The rEFInd website describes several methods of installation.
 I used the following:
 
-```
+```bash
 sudo apt-add-repository ppa:rodsmith/refind
 sudo apt-get update
 sudo apt-get install refind
@@ -56,7 +56,7 @@ One of the themes mentioned on the rEFInd website is [Regular-theme](https://git
 The installation mostly just requires copying image and configuration files.
 If `git` has been installed [installing git](/setup-env/git#install-git)), then you can download and copy these files as follows:
 
-```
+```bash
 git clone https://github.com/bobafetthotmail/refind-theme-regular.git
 
 rm -rf refind-theme-regular/{src,.git}
