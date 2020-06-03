@@ -14,16 +14,19 @@ sudo chown USER_NAME /work
 Using `Ubuntu Software` app consider installing any of the following programs:
 
 - Firefox Web Browser
-- Synaptic Package Manager
-- Visual Studio Code
-- IDEA Community
-- PyCharm CE
+- Chromium
 - Spotify
 - LibreOffice (Writer, Calc, Impress, Base, Draw)
 - Transmission
+
+- Visual Studio Code
+- IDEA Community
+- PyCharm CE
+
+- Synaptic Package Manager
 - Disk Usage Analyzer
 - GParted
-- Chromium
+
 - GNU Image Manipulation Program
 - Inkscape
 - TeXstudio
