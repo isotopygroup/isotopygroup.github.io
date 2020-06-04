@@ -1,5 +1,9 @@
 # Deploying With Heroku
 
+[Heroku](https://www.heroku.com) is fairly easy to get setup and running.
+First you will need to create an account with Heroku.
+There is a free account level which includes the option to use a PostgreSQL database for limited data storage.
+
 ## Spring Boot Java App
 
 - Install Heroku CLI with `Ubuntu Software` or `snap`.
@@ -47,4 +51,10 @@
 
     ```bash
     heroku addons:create heroku-postgresql
+    ```
+
+- To redeploy after making changes simply commit the changes to the `deploy` branch and push to the remote heroku master.
+
+    ```bash
+    git push heroku deploy:master
     ```
