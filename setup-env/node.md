@@ -26,9 +26,14 @@ nvm ls
 
 ```bash
 nvm ls-remote | tail -n20
+# most recent stable release
+nvm install node --reinstall-packages-from=default
+# most recent long term stable release
 nvm install lts/* --reinstall-packages-from=default
-nvm alias default stable
+nvm alias stable NODE_VER
 ```
+
+Where `NODE_VER` is the stable version which was downloaded.
 
 ### Update Global `npm` Packages
 

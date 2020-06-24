@@ -58,3 +58,9 @@ There is a free account level which includes the option to use a PostgreSQL data
     ```bash
     git push heroku deploy:master
     ```
+
+- To logout of heroku from the terminal:
+
+    ```bash
+    heroku logout
+    ```
