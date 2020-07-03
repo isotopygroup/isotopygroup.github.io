@@ -80,3 +80,4 @@ Vercel CLI can be used to deploy independently of a GitHub account (GitHub organ
     ```bash
     npm run vercel logout
     ```
+    
