@@ -37,12 +37,10 @@ Vercel CLI can be used to deploy independently of a GitHub account (GitHub organ
   One method is to add a script to `package.json`:
 
     ```json
-    ...
     "scripts": {
       "build": "ng build",
       "vercel": "vercel"   // add this line
-    },
-    ...
+    }
     ```
 
   Now you can run the `vercel` command with
