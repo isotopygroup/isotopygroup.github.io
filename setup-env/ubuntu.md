@@ -30,3 +30,10 @@ Using `Ubuntu Software` app consider installing any of the following programs:
 - GNU Image Manipulation Program
 - Inkscape
 - TeXstudio
+
+Using command line follow the pattern:
+
+```bash
+sudo apt update
+sudo apt install curl
+```
